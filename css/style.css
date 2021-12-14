@@ -1,0 +1,33 @@
+
+/* HEADER */
+
+body{
+    
+}
+
+.top-header{
+    background-color: black;
+}
+
+.top-header .logo{
+    width: 150px;
+    margin-bottom: 0;
+}
+
+/* JUMBOTRON 1 */
+
+.jumbo .row .col{
+    min-height: 627px;
+}
+
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* SECTION 1 list*/
+
+section.list img{
+    max-width: 100%;
+}
