@@ -1,9 +1,11 @@
 
+
+img{
+    max-width: 100%;
+}
+
 /* HEADER */
 
-body{
-    
-}
 
 .top-header{
     background-color: black;
@@ -26,11 +28,6 @@ body{
     background-repeat: no-repeat;
 }
 
-/* SECTION 1 list*/
-
-.list-section img{
-    max-width: 100%;
-}
 
 /* SECTION LIST-CONSOLLE */
 
@@ -40,17 +37,19 @@ body{
 
 /* SECOND JUMBOTRON */
 
-.jumbo.second{
+.jumbo-second{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
 }
 
-.jumbo.second img{
-    max-width: 100%;
+/* SMALL JUMBO */
+
+.small-jumbo{
+    background-color: #bebcbb;
 }
 
-/* NUOVE USCITE */
+/* SECOND SMALL JUMBO */
 
-.nuove img{
-    max-width: 100%;
+.second-sml-jumbo{
+    background-color: rgba(22,28,59,255);
 }
