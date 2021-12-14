@@ -28,6 +28,29 @@ body{
 
 /* SECTION 1 list*/
 
-section.list img{
+.list-section img{
+    max-width: 100%;
+}
+
+/* SECTION LIST-CONSOLLE */
+
+.list-consolle img{
+    max-width: 100%;
+}
+
+/* SECOND JUMBOTRON */
+
+.jumbo.second{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+}
+
+.jumbo.second img{
+    max-width: 100%;
+}
+
+/* NUOVE USCITE */
+
+.nuove img{
     max-width: 100%;
 }
