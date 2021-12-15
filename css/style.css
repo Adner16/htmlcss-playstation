@@ -8,8 +8,15 @@ main{
     padding-top: 135px;
 }
 
+.btn{
+    border-radius: 20px;
+}
+
 /* HEADER */
 
+header{
+    border-bottom: 1px solid lightgrey;
+}
 
 .top-header{
     background-color: black;
@@ -19,6 +26,12 @@ main{
     width: 150px;
     margin-bottom: 0;
 }
+
+header .nav-menu ul{
+    list-style-type: none;
+}
+
+
 
 /* JUMBOTRON 1 */
 
@@ -47,11 +60,34 @@ main{
     background-color: #bebcbb;
 }
 
+/* DISCOUNT */
+
+.discount h4{
+    font-size: 20px;
+    color: grey;
+}
+
 /* SECOND SMALL JUMBO */
 
 .second-sml-jumbo{
     background-color: rgba(22,28,59,255);
 }
+
+/* NUOVE USCITE */
+
+.nuove h6{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* ESPLORA */
+
+.esplora h4{
+    font-size: 20px;
+    font-weight: 450;
+    color: grey;
+}
+
 
 /* FOOTER */
 
