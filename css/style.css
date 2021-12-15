@@ -4,6 +4,10 @@ img{
     max-width: 100%;
 }
 
+main{
+    padding-top: 135px;
+}
+
 /* HEADER */
 
 
@@ -18,28 +22,21 @@ img{
 
 /* JUMBOTRON 1 */
 
-.jumbo .row .col{
-    min-height: 627px;
-}
 
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
+    padding-top: 300px;
 }
 
-
-/* SECTION LIST-CONSOLLE */
-
-.list-consolle img{
-    max-width: 100%;
-}
 
 /* SECOND JUMBOTRON */
 
 .jumbo-second{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
+    padding-top: 20px;
 }
 
 /* SMALL JUMBO */
@@ -52,4 +49,30 @@ img{
 
 .second-sml-jumbo{
     background-color: rgba(22,28,59,255);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(0,67,156,255);
+}
+
+footer .col-12 ul{
+    list-style-type: none;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+footer .col-12 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#last-link{
+    color: white;
+}
+
+footer figure{
+    width: 150px;
 }
