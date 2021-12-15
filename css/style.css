@@ -60,6 +60,12 @@ header .nav-menu ul{
     background-color: #bebcbb;
 }
 
+.small-jumbo .image{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: cover;
+    
+}
+
 /* DISCOUNT */
 
 .discount h4{
